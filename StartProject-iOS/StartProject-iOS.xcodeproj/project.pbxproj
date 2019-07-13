@@ -15,6 +15,19 @@
 		4F73121322D5C0DD0017443B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F73121222D5C0DD0017443B /* main.m */; };
 		4F73121D22D5C0DD0017443B /* StartProject_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F73121C22D5C0DD0017443B /* StartProject_iOSTests.m */; };
 		4F73122822D5C0DD0017443B /* StartProject_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F73122722D5C0DD0017443B /* StartProject_iOSUITests.m */; };
+		542EA7F122D9802B009445C9 /* AppGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EA7F022D9802B009445C9 /* AppGlobal.m */; };
+		542EA7F522D98140009445C9 /* UIDevice+YHCAddations.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EA7F422D98140009445C9 /* UIDevice+YHCAddations.m */; };
+		542EA7F922D981C6009445C9 /* YHCAutoCodingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EA7F822D981C6009445C9 /* YHCAutoCodingObject.m */; };
+		542EA7FD22D98423009445C9 /* UIView+YHCAddations.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EA7FC22D98423009445C9 /* UIView+YHCAddations.m */; };
+		542EA80122D98551009445C9 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EA80022D98551009445C9 /* SSKeychain.m */; };
+		542EA80422D98564009445C9 /* NSString+YHCAddations.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EA80322D98563009445C9 /* NSString+YHCAddations.m */; };
+		542EA80722D985FA009445C9 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EA80622D985FA009445C9 /* UIDevice+IdentifierAddition.m */; };
+		542EA80B22D98718009445C9 /* GetIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EA80922D98718009445C9 /* GetIPAddress.m */; };
+		542EA80E22D989D3009445C9 /* NSString+YHCMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EA80D22D989D3009445C9 /* NSString+YHCMD5.m */; };
+		542EA81122D98A8D009445C9 /* NSData+YHCBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EA81022D98A8D009445C9 /* NSData+YHCBase64.m */; };
+		542EA81822D98AFE009445C9 /* XXTEA.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EA81422D98AFE009445C9 /* XXTEA.m */; };
+		542EA81922D98AFE009445C9 /* EncryptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EA81622D98AFE009445C9 /* EncryptUtils.m */; };
+		542EA81C22D98BFD009445C9 /* AppAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EA81A22D98BFD009445C9 /* AppAudioEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +65,32 @@
 		4F73122722D5C0DD0017443B /* StartProject_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartProject_iOSUITests.m; sourceTree = "<group>"; };
 		4F73122922D5C0DD0017443B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F73123522D5C1940017443B /* AppMacroDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacroDefine.h; sourceTree = "<group>"; };
+		542EA7EF22D9802B009445C9 /* AppGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppGlobal.h; sourceTree = "<group>"; };
+		542EA7F022D9802B009445C9 /* AppGlobal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppGlobal.m; sourceTree = "<group>"; };
+		542EA7F322D98140009445C9 /* UIDevice+YHCAddations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YHCAddations.h"; sourceTree = "<group>"; };
+		542EA7F422D98140009445C9 /* UIDevice+YHCAddations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YHCAddations.m"; sourceTree = "<group>"; };
+		542EA7F722D981C6009445C9 /* YHCAutoCodingObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHCAutoCodingObject.h; sourceTree = "<group>"; };
+		542EA7F822D981C6009445C9 /* YHCAutoCodingObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCAutoCodingObject.m; sourceTree = "<group>"; };
+		542EA7FB22D98423009445C9 /* UIView+YHCAddations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YHCAddations.h"; sourceTree = "<group>"; };
+		542EA7FC22D98423009445C9 /* UIView+YHCAddations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YHCAddations.m"; sourceTree = "<group>"; };
+		542EA7FF22D98551009445C9 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		542EA80022D98551009445C9 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		542EA80222D98563009445C9 /* NSString+YHCAddations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YHCAddations.h"; sourceTree = "<group>"; };
+		542EA80322D98563009445C9 /* NSString+YHCAddations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YHCAddations.m"; sourceTree = "<group>"; };
+		542EA80522D985FA009445C9 /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
+		542EA80622D985FA009445C9 /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		542EA80922D98718009445C9 /* GetIPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetIPAddress.m; sourceTree = "<group>"; };
+		542EA80A22D98718009445C9 /* GetIPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetIPAddress.h; sourceTree = "<group>"; };
+		542EA80C22D989D3009445C9 /* NSString+YHCMD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YHCMD5.h"; sourceTree = "<group>"; };
+		542EA80D22D989D3009445C9 /* NSString+YHCMD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YHCMD5.m"; sourceTree = "<group>"; };
+		542EA80F22D98A8D009445C9 /* NSData+YHCBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+YHCBase64.h"; sourceTree = "<group>"; };
+		542EA81022D98A8D009445C9 /* NSData+YHCBase64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+YHCBase64.m"; sourceTree = "<group>"; };
+		542EA81422D98AFE009445C9 /* XXTEA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTEA.m; sourceTree = "<group>"; };
+		542EA81522D98AFE009445C9 /* EncryptUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptUtils.h; sourceTree = "<group>"; };
+		542EA81622D98AFE009445C9 /* EncryptUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptUtils.m; sourceTree = "<group>"; };
+		542EA81722D98AFE009445C9 /* XXTEA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTEA.h; sourceTree = "<group>"; };
+		542EA81A22D98BFD009445C9 /* AppAudioEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppAudioEngine.m; sourceTree = "<group>"; };
+		542EA81B22D98BFD009445C9 /* AppAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppAudioEngine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,16 +141,15 @@
 		4F73120222D5C0DC0017443B /* StartProject-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				542EA7FA22D98313009445C9 /* libs */,
+				542EA7F622D9816A009445C9 /* entities */,
+				542EA7F222D98115009445C9 /* category */,
+				542EA7ED22D97F5D009445C9 /* app */,
 				4F73120322D5C0DC0017443B /* AppDelegate.h */,
 				4F73120422D5C0DC0017443B /* AppDelegate.m */,
 				4F73120622D5C0DC0017443B /* ViewController.h */,
 				4F73120722D5C0DC0017443B /* ViewController.m */,
-				4F73120922D5C0DC0017443B /* Main.storyboard */,
-				4F73120C22D5C0DD0017443B /* Assets.xcassets */,
-				4F73120E22D5C0DD0017443B /* LaunchScreen.storyboard */,
-				4F73121122D5C0DD0017443B /* Info.plist */,
-				4F73121222D5C0DD0017443B /* main.m */,
-				4F73123522D5C1940017443B /* AppMacroDefine.h */,
+				542EA7EE22D97F68009445C9 /* ohters */,
 			);
 			path = "StartProject-iOS";
 			sourceTree = "<group>";
@@ -132,6 +170,97 @@
 				4F73122922D5C0DD0017443B /* Info.plist */,
 			);
 			path = "StartProject-iOSUITests";
+			sourceTree = "<group>";
+		};
+		542EA7ED22D97F5D009445C9 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				542EA81B22D98BFD009445C9 /* AppAudioEngine.h */,
+				542EA81A22D98BFD009445C9 /* AppAudioEngine.m */,
+				4F73123522D5C1940017443B /* AppMacroDefine.h */,
+				542EA7EF22D9802B009445C9 /* AppGlobal.h */,
+				542EA7F022D9802B009445C9 /* AppGlobal.m */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		542EA7EE22D97F68009445C9 /* ohters */ = {
+			isa = PBXGroup;
+			children = (
+				4F73120922D5C0DC0017443B /* Main.storyboard */,
+				4F73120C22D5C0DD0017443B /* Assets.xcassets */,
+				4F73120E22D5C0DD0017443B /* LaunchScreen.storyboard */,
+				4F73121122D5C0DD0017443B /* Info.plist */,
+				4F73121222D5C0DD0017443B /* main.m */,
+			);
+			path = ohters;
+			sourceTree = "<group>";
+		};
+		542EA7F222D98115009445C9 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				542EA7F322D98140009445C9 /* UIDevice+YHCAddations.h */,
+				542EA7F422D98140009445C9 /* UIDevice+YHCAddations.m */,
+				542EA80522D985FA009445C9 /* UIDevice+IdentifierAddition.h */,
+				542EA80622D985FA009445C9 /* UIDevice+IdentifierAddition.m */,
+				542EA7FB22D98423009445C9 /* UIView+YHCAddations.h */,
+				542EA7FC22D98423009445C9 /* UIView+YHCAddations.m */,
+				542EA80222D98563009445C9 /* NSString+YHCAddations.h */,
+				542EA80322D98563009445C9 /* NSString+YHCAddations.m */,
+				542EA80C22D989D3009445C9 /* NSString+YHCMD5.h */,
+				542EA80D22D989D3009445C9 /* NSString+YHCMD5.m */,
+				542EA80F22D98A8D009445C9 /* NSData+YHCBase64.h */,
+				542EA81022D98A8D009445C9 /* NSData+YHCBase64.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		542EA7F622D9816A009445C9 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				542EA7F722D981C6009445C9 /* YHCAutoCodingObject.h */,
+				542EA7F822D981C6009445C9 /* YHCAutoCodingObject.m */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		542EA7FA22D98313009445C9 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				542EA81322D98AFE009445C9 /* TeaEncrypt */,
+				542EA80822D98718009445C9 /* GetIPAddress */,
+				542EA7FE22D98551009445C9 /* SSKeychain */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		542EA7FE22D98551009445C9 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				542EA7FF22D98551009445C9 /* SSKeychain.h */,
+				542EA80022D98551009445C9 /* SSKeychain.m */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		542EA80822D98718009445C9 /* GetIPAddress */ = {
+			isa = PBXGroup;
+			children = (
+				542EA80922D98718009445C9 /* GetIPAddress.m */,
+				542EA80A22D98718009445C9 /* GetIPAddress.h */,
+			);
+			path = GetIPAddress;
+			sourceTree = "<group>";
+		};
+		542EA81322D98AFE009445C9 /* TeaEncrypt */ = {
+			isa = PBXGroup;
+			children = (
+				542EA81522D98AFE009445C9 /* EncryptUtils.h */,
+				542EA81622D98AFE009445C9 /* EncryptUtils.m */,
+				542EA81722D98AFE009445C9 /* XXTEA.h */,
+				542EA81422D98AFE009445C9 /* XXTEA.m */,
+			);
+			path = TeaEncrypt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +393,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542EA81822D98AFE009445C9 /* XXTEA.m in Sources */,
+				542EA7F522D98140009445C9 /* UIDevice+YHCAddations.m in Sources */,
+				542EA80122D98551009445C9 /* SSKeychain.m in Sources */,
+				542EA7F122D9802B009445C9 /* AppGlobal.m in Sources */,
+				542EA81C22D98BFD009445C9 /* AppAudioEngine.m in Sources */,
+				542EA80B22D98718009445C9 /* GetIPAddress.m in Sources */,
 				4F73120822D5C0DC0017443B /* ViewController.m in Sources */,
+				542EA80722D985FA009445C9 /* UIDevice+IdentifierAddition.m in Sources */,
 				4F73121322D5C0DD0017443B /* main.m in Sources */,
+				542EA7F922D981C6009445C9 /* YHCAutoCodingObject.m in Sources */,
+				542EA7FD22D98423009445C9 /* UIView+YHCAddations.m in Sources */,
+				542EA81922D98AFE009445C9 /* EncryptUtils.m in Sources */,
+				542EA80E22D989D3009445C9 /* NSString+YHCMD5.m in Sources */,
+				542EA81122D98A8D009445C9 /* NSData+YHCBase64.m in Sources */,
+				542EA80422D98564009445C9 /* NSString+YHCAddations.m in Sources */,
 				4F73120522D5C0DC0017443B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,7 +580,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "StartProject-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/StartProject-iOS/ohters/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +596,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "StartProject-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/StartProject-iOS/ohters/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
